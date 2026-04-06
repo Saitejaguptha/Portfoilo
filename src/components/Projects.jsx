@@ -147,7 +147,7 @@ function Projects() {
                 <h3 className="text-xl font-bold text-zinc-100 mb-2 group-hover:text-indigo-300 transition-colors">
                   {project.title}
                 </h3>
-                <p className="text-zinc-400 text-sm leading-relaxed mb-6 line-clamp-3 group-hover:text-zinc-300 transition-colors">
+                <p className="text-zinc-400 text-sm leading-relaxed mb-6 group-hover:text-zinc-300 transition-colors">
                   {project.description}
                 </p>
               </div>
