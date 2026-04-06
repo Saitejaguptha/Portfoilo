@@ -4,19 +4,39 @@ import AnimatedPage from "./AnimatedPage";
 const skillsData = [
   {
     category: "Backend",
-    items: ["Node.js", "TypeScript", "Express", "MongoDB", "MySQL", "Redis", "REST APIs", "WebSockets", "Microservices"],
+    items: [
+      "Node.js", "Python", "TypeScript", "Express.js", "REST APIs",
+      "WebSockets", "Microservices", "JWT", "bcrypt.js", "Nodemailer",
+      "EJS", "MongoDB", "MySQL", "Redis",
+    ],
   },
   {
     category: "Frontend",
-    items: ["React", "Redux Toolkit", "React Query", "React Router", "Tailwind CSS"],
+    items: [
+      "React.js", "Redux Toolkit", "React Router", "React Hook Form",
+      "React Query", "Tailwind CSS",
+    ],
   },
   {
-    category: "DevOps",
-    items: ["AWS (S3, EC2, Lambda)", "Docker", "CI/CD", "GitHub Actions", "Jenkins"],
+    category: "DevOps & Cloud",
+    items: [
+      "Docker", "Kubernetes", "AWS (S3, EC2, Lambda)",
+      "GitHub Actions", "CI/CD", "Jenkins", "SVN", "Git",
+    ],
+  },
+  {
+    category: "Systems & Scripting",
+    items: [
+      "Shell Scripting (Bash)", "Linux", "cron Jobs", "AWK", "grep",
+      "Apache", "PHP", "DNS", "sendmail",
+    ],
   },
   {
     category: "Tooling & AI",
-    items: ["Git", "Postman", "npm", "GitHub Copilot", "Claude", "ChatGPT", "Gemini", "Cursor", "Antigravity"],
+    items: [
+      "Postman", "npm", "GitHub Copilot", "Claude", "ChatGPT",
+      "Gemini", "Cursor", "Antigravity",
+    ],
   },
 ];
 
